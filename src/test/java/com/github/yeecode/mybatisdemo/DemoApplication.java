@@ -10,9 +10,6 @@ import java.io.InputStream;
 import java.util.List;
 
 public class DemoApplication {
-    static {
-        org.apache.ibatis.logging.Log log = org.apache.ibatis.logging.LogFactory.getLog(org.apache.ibatis.logging.slf4j.Slf4jImpl.class);
-    }
     public static void main(String[] args) {
 
         // 第一阶段：MyBatis的初始化阶段
